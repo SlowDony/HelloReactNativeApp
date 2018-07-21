@@ -8,7 +8,9 @@
 
 import React, {Component} from 'react';
 import {Platform, StyleSheet, Text, View} from 'react-native';
-import HelloComponent from './HelloComponent';
+//import HelloComponent from './HelloComponent'; //01.初识 react-native
+//import LifeCycleComponent from './LifeCycleComponent'; //02.组件的生命周期
+import RN03_ImportAndExportComponent from './RN03_ImportAndExportComponent';
 
 const instructions = Platform.select({
   ios: 'Press Cmd+R to reload,\n' + 'Cmd+D or shake for dev menu',
@@ -19,16 +21,46 @@ const instructions = Platform.select({
 
 type Props = {};
 export default class App extends Component<Props> {
+  constructor(props){
+    super(props);
+
+  }
+
   render() {
+
     return (
       <View style={styles.container}>
-       <HelloComponent
-        name="小明"
-      />
+       <RN03_ImportAndExportComponent/>
       </View>
     );
   }
 }
+
+
+/*
+* 02 查看LifeCycleComponent的生命周期模拟移除组件
+* */
+//render() {
+//
+//  var myView = this.state.remove?null:<LifeCycleComponent />;
+//  var myText = this.state.remove?"添加myView":"移除myView";
+//
+//  return (
+//      <View style={styles.container}>
+//<Text
+//  style={{fontSize:20}}
+//  onPress={()=>{
+//    this.setState({
+//      remove : !this.state.remove
+//    })
+//  }}>{myText}
+//</Text>
+//  {myView}
+//  </View>
+//);
+//}
+
+
 
 const styles = StyleSheet.create({
   container: {
