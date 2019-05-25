@@ -8,9 +8,16 @@
 
 import React, {Component} from 'react';
 import {Platform, StyleSheet, Text, View} from 'react-native';
-//import HelloComponent from './HelloComponent'; //01.初识 react-native
-//import LifeCycleComponent from './LifeCycleComponent'; //02.组件的生命周期
-import RN03_ImportAndExportComponent from './RN03_ImportAndExportComponent';
+
+import PropsDemo from "./src/RN01_Props"; ///props(属性)
+import StateDemo from "./src/RN02_State"; ///state(状态) 以及获取真实Dom节点 def使用
+import StyleDemo from "./src/RN04_Styles"; ///style(样式)
+import FlexBoxDemo from "./src/RN05_FlexBox"; ///FlexBox(弹性盒子布局) 
+import ScreenDemo from "./src/RN06_Screen"; ///屏幕宽度和高度
+import MovieList from "./src/MovieList";
+import ViewsDemo from "./src/Views";
+
+
 
 const instructions = Platform.select({
   ios: 'Press Cmd+R to reload,\n' + 'Cmd+D or shake for dev menu',
@@ -18,6 +25,7 @@ const instructions = Platform.select({
     'Double tap R on your keyboard to reload,\n' +
     'Shake or press menu button for dev menu',
 });
+
 
 type Props = {};
 export default class App extends Component<Props> {
@@ -30,7 +38,7 @@ export default class App extends Component<Props> {
 
     return (
       <View style={styles.container}>
-       <RN03_ImportAndExportComponent/>
+       <FlexBoxDemo></FlexBoxDemo>
       </View>
     );
   }
