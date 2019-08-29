@@ -6,8 +6,8 @@
  * @flow
  */
 
-import React, {Component} from 'react';
-import {Platform, StyleSheet, Text, View} from 'react-native';
+import React, { Component } from 'react'; ``
+import { Platform, StyleSheet, Text, View } from 'react-native';
 
 import PropsDemo from "./src/RN01_Props"; ///props(属性)
 import StateDemo from "./src/RN02_State"; ///state(状态) 以及获取真实Dom节点 def使用
@@ -18,7 +18,6 @@ import MovieList from "./src/MovieList";
 import ViewsDemo from "./src/Views";
 
 
-
 const instructions = Platform.select({
   ios: 'Press Cmd+R to reload,\n' + 'Cmd+D or shake for dev menu',
   android:
@@ -27,19 +26,18 @@ const instructions = Platform.select({
 });
 
 
-type Props = {};
-export default class App extends Component<Props> {
-  constructor(props){
+export default class App extends Component {
+  constructor(props) {
     super(props);
 
   }
-
   render() {
 
     return (
       <View style={styles.container}>
-       <FlexBoxDemo></FlexBoxDemo>
+        <PropsDemo />
       </View>
+
     );
   }
 }

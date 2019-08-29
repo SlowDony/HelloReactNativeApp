@@ -1,14 +1,17 @@
-/**
- * Copyright (c) 2015-present, Facebook, Inc.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
- */
+//
+//  AppDelegate.h
+//  HelloReactNativeApp
+//
+//  Created by slowdony on 2019/8/30.
+//  Copyright © 2019 slowdony. All rights reserved.
+//
 
 #import <UIKit/UIKit.h>
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
-@property (nonatomic, strong) UIWindow *window;
+@property (strong, nonatomic) UIWindow *window;
+
 
 @end
+
