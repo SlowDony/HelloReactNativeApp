@@ -29,6 +29,8 @@ target 'HelloReactNativeApp' do
   
   
   use_native_modules!
+  pod 'RNGestureHandler', :path => '../node_modules/react-native-gesture-handler'
+
 end
 
 

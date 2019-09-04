@@ -89,7 +89,6 @@
 				94C25E9E7C49C1253F3124E5 /* Pods-HelloReactNativeApp.debug.xcconfig */,
 				DFEDD0C606E7ECA1FFBBC5FF /* Pods-HelloReactNativeApp.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};

@@ -16,14 +16,7 @@ import FlexBoxDemo from "./src/RN05_FlexBox"; ///FlexBox(弹性盒子布局)
 import ScreenDemo from "./src/RN06_Screen"; ///屏幕宽度和高度
 import MovieList from "./src/MovieList";
 import ViewsDemo from "./src/Views";
-
-
-const instructions = Platform.select({
-  ios: 'Press Cmd+R to reload,\n' + 'Cmd+D or shake for dev menu',
-  android:
-    'Double tap R on your keyboard to reload,\n' +
-    'Shake or press menu button for dev menu',
-});
+import MainTableView from "./src/MainTableView";
 
 
 export default class App extends Component {
@@ -35,7 +28,7 @@ export default class App extends Component {
 
     return (
       <View style={styles.container}>
-        <PropsDemo />
+        <MainTableView />
       </View>
 
     );
