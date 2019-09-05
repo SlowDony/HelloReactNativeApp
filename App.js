@@ -17,6 +17,8 @@ import ScreenDemo from "./src/RN06_Screen"; ///屏幕宽度和高度
 import MovieList from "./src/MovieList";
 import ViewsDemo from "./src/Views";
 import MainTableView from "./src/MainTableView";
+import AppStackNavigator from "./src/AppStackNavigator"
+import AppNavigator from "./src/AppNavigator"
 
 
 export default class App extends Component {
@@ -27,9 +29,9 @@ export default class App extends Component {
   render() {
 
     return (
-      <View style={styles.container}>
-        <MainTableView />
-      </View>
+      // <View style={styles.container}>
+        <AppStackNavigator />
+      // </View>
 
     );
   }
