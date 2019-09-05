@@ -18,7 +18,6 @@ import MovieList from "./src/MovieList";
 import ViewsDemo from "./src/Views";
 import MainTableView from "./src/MainTableView";
 import AppStackNavigator from "./src/AppStackNavigator"
-import AppNavigator from "./src/AppNavigator"
 
 
 export default class App extends Component {
