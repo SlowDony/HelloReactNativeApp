@@ -1,9 +1,6 @@
-# HelloReactNativeApp
-RN练习
 ###关于ReactNative
 
-![image-20191024104138160](/Users/botu/Library/Application Support/typora-user-images/image-20191024104138160.png)
-
+![image.png](https://upload-images.jianshu.io/upload_images/207335-411c9695c52ad86f.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 React Native (简称RN)是Facebook于2015年4月开源的跨平台移动应用开发框架，是Facebook早先开源的JS框架 React 在原生移动应用平台的衍生产物，目前支持iOS和安卓两大平台。RN使用Javascript语言，类似于HTML的JSX，以及CSS来开发移动应用，因此熟悉Web前端开发的技术人员只需很少的学习就可以进入移动应用开发领域。
 
 ###搭建开发环境
@@ -90,7 +87,8 @@ React Native (简称RN)是Facebook于2015年4月开源的跨平台移动应用�
 
 ```npm install -g react-native-cli```
 
-![image-20191024111149552](/Users/botu/Library/Application Support/typora-user-images/image-20191024111149552.png)
+![image.png](https://upload-images.jianshu.io/upload_images/207335-f748bcf2ca208f49.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
 
 输入查看react-native命令
 
@@ -131,15 +129,13 @@ Android Studio 是谷歌推出的一个Android集成开发工具，基于Intelli
 
 创建完成后
 
-![image-20191024112037966](/Users/botu/Library/Application Support/typora-user-images/image-20191024112037966.png)
+![image.png](https://upload-images.jianshu.io/upload_images/207335-27839c83c5a832ba.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 创建完成后我们打开文件
 
 文件目录如下图
 
-![image-20191024112108223](/Users/botu/Library/Application Support/typora-user-images/image-20191024112108223.png)
-
-
+![image.png](https://upload-images.jianshu.io/upload_images/207335-42ff6e1fad237f3a.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 让我们运行一下我们的第一个ReactNativeApp
 
@@ -149,9 +145,11 @@ Android Studio 是谷歌推出的一个Android集成开发工具，基于Intelli
 
 ReactNative 会自动启动一个本地服务
 
-![image-20191026110158002](/Users/botu/Library/Application Support/typora-user-images/image-20191026110158002.png)
+![image.png](https://upload-images.jianshu.io/upload_images/207335-af39a17fa1509428.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
-![image-20191026110240688](/Users/botu/Library/Application Support/typora-user-images/image-20191026110240688.png)
+
+![image.png](https://upload-images.jianshu.io/upload_images/207335-c2f4bd3ad9080b7d.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
 
 
 
@@ -167,13 +165,15 @@ iOS 模拟器快捷键:```command + D ```。
 
 调试效果如图 。
 
-![image-20191026110325552](/Users/botu/Library/Application Support/typora-user-images/image-20191026110325552.png)
+![image.png](https://upload-images.jianshu.io/upload_images/207335-ecbb811a209d02dd.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
 
 这里打开 Enable Live Reload 选项 ，这样在 React Native 项目中做任何修改后 ， 不需要重新启动或加载 App ， 运行中的 App 都可 以 自动更新了。
 
 点击Debug JS Remotely 会进入如下图所示的Sources面板,然后就可以进行Debug了
 
-![image-20191026110536472](/Users/botu/Library/Application Support/typora-user-images/image-20191026110536472.png)
+![image.png](https://upload-images.jianshu.io/upload_images/207335-af0416722d302796.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
 
 ### Props(属性) State(状态)
 
@@ -311,7 +311,8 @@ export default class BlinkApp extends Component {
 
 第三阶段：是组件卸载消亡的阶段，如图中右下角的虚线框中，这里做一些组件的清理工作
 
-![image-20191026112058222](/Users/botu/Library/Application Support/typora-user-images/image-20191026112058222.png)
+![image.png](https://upload-images.jianshu.io/upload_images/207335-fd747ac0d8f1c9b8.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
 
 ##### 绘制阶段
 
@@ -560,7 +561,8 @@ const styles = StyleSheet.create({
 
 3. 大部分情况下是处理图中FlexItem在FlexContainer中的位置和尺寸关系?
 
-   ![image-20191026142126724](/Users/botu/Library/Application Support/typora-user-images/image-20191026142126724.png)
+   ![image.png](https://upload-images.jianshu.io/upload_images/207335-9010f5f5b755eb68.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
 
 4. Flex布局基于flex-flow流
 
@@ -570,11 +572,13 @@ const styles = StyleSheet.create({
 
    - 项目默认沿主轴排列，单个项目占据的主轴空间叫做main size，占据的交叉轴空间叫做cross size。
 
-   ![image-20191026142327478](/Users/botu/Library/Application Support/typora-user-images/image-20191026142327478.png)
+   ![image.png](https://upload-images.jianshu.io/upload_images/207335-4691a65137b25954.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
 
    - 根据伸缩项目排列方式的不同，主轴和侧轴方向也有所变化
 
-   ![image-20191026142441392](/Users/botu/Library/Application Support/typora-user-images/image-20191026142441392.png)
+   ![image.png](https://upload-images.jianshu.io/upload_images/207335-48b851b22bfc26e9.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
 
 5. 在React中，Flexbox有6种容器属性，6种项目属性。而在React Native中，有4个容器属性，2个项目属性，分别是：
 
@@ -594,7 +598,8 @@ const styles = StyleSheet.create({
 
        column-reverse：主轴为垂直方向，起点在下沿。
 
-       ![image-20191026143349694](/Users/botu/Library/Application Support/typora-user-images/image-20191026143349694.png)
+       ![image.png](https://upload-images.jianshu.io/upload_images/207335-55ede21b28dca545.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
 
        ```javascript
         // 尝试把`justifyContent`改为`center`看看
@@ -610,19 +615,23 @@ const styles = StyleSheet.create({
 
        默认情况下，项目都排在一条线（又称"轴线"）上。flex-wrap属性定义，如果一条轴线排不下，如何换行
 
-       ![image-20191026143708750](/Users/botu/Library/Application Support/typora-user-images/image-20191026143708750.png)
+       ![image.png](https://upload-images.jianshu.io/upload_images/207335-1c240b6a6384e412.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
 
        nowrap(默认值)：不换行
 
-       ![image-20191026143727572](/Users/botu/Library/Application Support/typora-user-images/image-20191026143727572.png)
+       ![image.png](https://upload-images.jianshu.io/upload_images/207335-3d8a95115ee2753b.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
 
        wrap：换行，第一行在上方
 
-       ![image-20191026143742990](/Users/botu/Library/Application Support/typora-user-images/image-20191026143742990.png)
+       ![image.png](https://upload-images.jianshu.io/upload_images/207335-6cdd13c9e3736b7f.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
 
        wrap-reverse：换行，第一行在下方。（和wrap相反）
 
-       ![image-20191026143801855](/Users/botu/Library/Application Support/typora-user-images/image-20191026143801855.png)
+       ![image.png](https://upload-images.jianshu.io/upload_images/207335-f311c799125be870.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
 
      - justifyContent容器属性:`flex-start | flex-end | center | space-between | space-around | space-evenly`
 
@@ -640,7 +649,9 @@ const styles = StyleSheet.create({
 
        space-evenly：伸缩项目会平均地分布在行里
 
-       ![image-20191026144128189](/Users/botu/Library/Application Support/typora-user-images/image-20191026144128189.png)
+       ![image.png](https://upload-images.jianshu.io/upload_images/207335-86d0947f144522df.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+
 
      - alignItems容器属性:`flex-start | flex-end | center | baseline | stretch`
 
@@ -656,7 +667,8 @@ const styles = StyleSheet.create({
 
        stretch（默认值）：如果项目未设置高度或设为auto，将占满整个容器的高度。
 
-       ![image-20191026144059935](/Users/botu/Library/Application Support/typora-user-images/image-20191026144059935.png)
+       ![image.png](https://upload-images.jianshu.io/upload_images/207335-65ccc8d070fe9cb8.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
 
      - flex项目属性:
 
@@ -664,7 +676,8 @@ const styles = StyleSheet.create({
 
        宽度 ＝ 弹性宽度 * ( flexGrow / sum( flexGorw ) )
 
-       ![image-20191026144231418](/Users/botu/Library/Application Support/typora-user-images/image-20191026144231418.png)
+       ![image.png](https://upload-images.jianshu.io/upload_images/207335-c95292b059cccb12.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
 
      - alignSelf项目属性:(特立独行)
 
@@ -674,7 +687,8 @@ const styles = StyleSheet.create({
 
        默认值为auto，表示继承父元素的align-items属性，如果没有父元素，则等同于stretch。
 
-       ![image-20191026144316487](/Users/botu/Library/Application Support/typora-user-images/image-20191026144316487.png)
+       ![image.png](https://upload-images.jianshu.io/upload_images/207335-8bf19ab8952cd4c6.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
 
 6. 有关常用的布局
 
@@ -710,7 +724,8 @@ const styles = StyleSheet.create({
      - padding 间隙 (也有人称做补丁)
      - content (内容，比如文本，图片等)
 
-     ![image-20191026144827837](/Users/botu/Library/Application Support/typora-user-images/image-20191026144827837.png)
+     ![image.png](https://upload-images.jianshu.io/upload_images/207335-9938aa6217a0f67e.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
 
      边距属性 (margin) 是用来设置一个元素所占空间的边缘到相邻元素之间的距离。
 
@@ -734,19 +749,20 @@ const styles = StyleSheet.create({
        },
      ```
 
-     
+  
+      relative——相对定位
 
-     - relative——相对定位
+       以元素本来的位置为基准进行偏移
 
-       **以元素本来的位置为基准**进行偏移
+       ![image.png](https://upload-images.jianshu.io/upload_images/207335-9cf60b636f6205be.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
-       ![image-20191026145247049](/Users/botu/Library/Application Support/typora-user-images/image-20191026145247049.png)
 
-     - absolute——绝对定位
+      absolute——绝对定位
 
-       **以父元素的边框为基准**进行偏移。
+       以父元素的边框为基准进行偏移。
 
-       ![image-20191026145254606](/Users/botu/Library/Application Support/typora-user-images/image-20191026145254606.png)
+       ![image.png](https://upload-images.jianshu.io/upload_images/207335-90d9ef9b2c5b8266.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
 
 ### 基础组件之View
 
