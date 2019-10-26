@@ -1,9 +1,9 @@
-###关于ReactNative
+### 关于ReactNative
 
 ![image.png](https://upload-images.jianshu.io/upload_images/207335-411c9695c52ad86f.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 React Native (简称RN)是Facebook于2015年4月开源的跨平台移动应用开发框架，是Facebook早先开源的JS框架 React 在原生移动应用平台的衍生产物，目前支持iOS和安卓两大平台。RN使用Javascript语言，类似于HTML的JSX，以及CSS来开发移动应用，因此熟悉Web前端开发的技术人员只需很少的学习就可以进入移动应用开发领域。
 
-###搭建开发环境
+### 搭建开发环境
 
 [在macOS上搭建ReactNative开发环境](https://reactnative.cn/docs/getting-started.html)
 
