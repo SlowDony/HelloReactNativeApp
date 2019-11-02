@@ -21,7 +21,7 @@ import StateScreen from './RN02_State'
 import StylesScreen from './RN04_Styles'
 import FlexBoxScreen from './RN05_FlexBox'
 import ScreenScreen from './RN06_Screen'
-
+import ViewsScreen from './Views'
 
 
 const AppStackNavigator = createStackNavigator(
@@ -116,6 +116,12 @@ const AppStackNavigator = createStackNavigator(
         title: "Screen(屏幕信息)" 
       })
     },
+    ViewPage: {
+      screen:ViewsScreen,
+      navigationOptions:({ navigation}) =>({
+        title:"View组件"
+      })
+    }
   },
   {
     initialRouteName: 'Main',
